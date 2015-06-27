@@ -1,0 +1,26 @@
+{
+  "name": "steamid-interop",
+  "version": "1.0.0",
+  "description": "Allows easy conversion of SteamIDs from various formats.",
+  "main": "lib/SteamID.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "long": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "steamid",
+    "convert",
+    "steam"
+  ],
+  "author": "Roflmuffin",
+  "license": "ISC"
+}
