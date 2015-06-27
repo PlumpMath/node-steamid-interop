@@ -1,6 +1,6 @@
 {
   "name": "steamid-interop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows easy conversion of SteamIDs from various formats.",
   "main": "lib/SteamID.js",
   "directories": {
