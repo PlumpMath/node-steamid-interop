@@ -56,7 +56,6 @@ describe('32-bit IDs', function() {
   describe('STEAM_0:1:1', function() {
     it('Steam 3 should be [U:1:3]', function() {
       var id = SteamID.decode('STEAM_0:1:1')
-      console.log(id)
       should(id.toString('steam3')).equal('[U:1:3]')
     })
     it('64-bit should be 76561197960265731', function() {
