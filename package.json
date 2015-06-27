@@ -22,5 +22,13 @@
     "steam"
   ],
   "author": "Roflmuffin",
-  "license": "ISC"
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roflmuffin/node-steamid-interop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roflmuffin/node-steamid-interop/issues"
+  },
+  "homepage": "https://github.com/roflmuffin/node-steamid-interop#readme"
 }
