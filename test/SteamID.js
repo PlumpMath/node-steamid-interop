@@ -67,4 +67,19 @@ describe('32-bit IDs', function() {
       should(id.toString('32')).equal('STEAM_0:1:1')
     })
   })
+
+  describe('STEAM_1:0:42606488', function() {
+    it('Steam 3 should be [U:1:85212976]', function() {
+      var id = SteamID.decode('STEAM_1:0:42606488')
+      should(id.toString('steam3')).equal('[U:1:85212976]')
+    })
+    it('64-bit should be 76561198045478704', function() {
+      var id = SteamID.decode('STEAM_1:0:42606488')
+      should(id.toString()).equal('76561198045478704')
+    })
+    it('32-bit should be STEAM_1:0:42606488', function() {
+      var id = SteamID.decode('STEAM_1:0:42606488')
+      should(id.toString('32')).equal('STEAM_0:0:42606488')
+    })
+  })
 })
